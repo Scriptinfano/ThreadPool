@@ -4,11 +4,8 @@ cmake_minimum_required(VERSION 3.10)
 # 项目名称
 project(MyCppProject)
 
-# 添加编译选项
-add_compile_options(-std=c++17)
-
 # 设置 C++ 标准
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 23)
 
 # 关闭编译器的返回值优化
 # set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-elide-constructors")
