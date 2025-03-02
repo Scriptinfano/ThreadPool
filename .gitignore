@@ -5,3 +5,4 @@ log/log.txt
 
 # IDE 配置文件
 .vscode/
+.DS_Store
